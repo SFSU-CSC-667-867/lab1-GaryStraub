@@ -20,7 +20,19 @@ obj.a = 9;
 // For Practice
 
 // declare an object with an object as a property
-
+const testVar = {
+    y : {
+        a : 'HelloWorld'
+    },
+    z : 45,
+};
+console.log(testVar);
 // delete a property
+delete testVar.y
+console.log(testVar);
+testVar.x = 'New Attribute';
+console.log(testVar);
 
 // change a property
+testVar.z = 46
+console.log(testVar);
